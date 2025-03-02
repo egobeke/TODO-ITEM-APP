@@ -89,6 +89,5 @@ myTodos.listTodos();
 
 myTodos.completeTodo(1);
 
-myTodos.listTodos(); // See updated list after completing task 1
 
-console.log("\nCompleted Tasks:", myTodos.filterTodos(true));
+console.log("Completed Tasks:", myTodos.filterTodos(true));
